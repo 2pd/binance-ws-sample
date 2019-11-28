@@ -26,7 +26,7 @@ ws.on('pong', () => {
   console.log('pong');
 })
 
-var heartBeat = setInterval(() => {
+const heartBeat = setInterval(() => {
   ws.ping();
   console.log("ping")
 }, 60000);

@@ -4,7 +4,7 @@
   "description": "binance ws client examnple",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "socket.io-client": "^2.1.1",
     "websocket": "~1.0.23",
     "ws": "^6.1.3"
